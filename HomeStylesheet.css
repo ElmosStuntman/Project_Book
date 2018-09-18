@@ -5,9 +5,26 @@
 
 .home-header {
 background-image: url(http://i64.tinypic.com/fda9g0.jpg) ;
-background-color: blue;
-height: 450px;
-background-size: 40%;
-background-repeat:fill;
-background-repeat:no-repeat
+height: 420px;
+background-position: center;
+background-size: cover;
+text-align: center;
+background: 
+     linear-gradient( rgba(255, 0, 0, 0.45),  rgba(255, 0, 0, 0.45)
+    ),
+}
+
+
+
+.title {
+text-align: right;
+font-size: 150px;
+color: lightskyblue
+
+}
+
+.author {
+font-size: 60px;
+color: lightskyblue
+
 }
