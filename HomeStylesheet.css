@@ -14,7 +14,11 @@ background:
     ),
 }
 
+body{
+background-color: rgb(142, 215, 240);
+margin: 0px
 
+}
 
 .title {
 text-align: right;
@@ -27,4 +31,13 @@ color: lightskyblue
 font-size: 60px;
 color: lightskyblue
 
+}
+
+.Louisville {
+text-align: center
+}
+
+#Lou {
+    height: 50%;
+    width: 50%;
 }
