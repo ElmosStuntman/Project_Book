@@ -38,18 +38,19 @@ text-align: center
 }
 
 .Louisville {
-margin: auto;
+width: 50%;
+float: left;
 }
 
 #Lou {
-margin: auto;
+
     height: 500px;
-    width: 700px;
+    width: fit-content;
 }
-#Loudiv {
-    margin: auto;
+.Loudiv {
     height: 500px;
-    width: 700px;
+    width: 50%;
+    float: right;
 }
 
 
@@ -57,13 +58,14 @@ margin: auto;
 
 
 @media (max-width: 1000px){
-#lou {
-    width: 400px;
-    float: right;
-}
 .Louisville{
-width: 400px;
-    clear: left;
+float:none;
+width:100%;
+    
 }
+.LouDiv {
+float: none;
+width:100%;
 
+}
 }
