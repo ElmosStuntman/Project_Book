@@ -38,11 +38,16 @@ text-align: center
 }
 
 .Louisville {
-text-align: center
+margin: auto;
 }
 
 #Lou {
-
+margin: auto;
+    height: 500px;
+    width: 700px;
+}
+#Loudiv {
+    margin: auto;
     height: 500px;
     width: 700px;
 }
@@ -51,12 +56,13 @@ text-align: center
 /*media query stuff.... want louisville picture and abotu paragraph to float next to each other on wider screens*/
 
 
-@media (min-width: 600px){
-
+@media (max-width: 1000px){
 #lou {
+    width: 400px;
     float: right;
 }
 .Louisville{
+width: 400px;
     clear: left;
 }
 
