@@ -13,7 +13,7 @@ text-align: center;
 
 body{
 background-color: rgb(142, 215, 240);
-margin: 0px
+margin: 0px 10px;
 
 }
 
@@ -42,6 +42,22 @@ text-align: center
 }
 
 #Lou {
-    height: 50%;
-    width: 50%;
+
+    height: 500px;
+    width: 700px;
+}
+
+
+/*media query stuff.... want louisville picture and abotu paragraph to float next to each other on wider screens*/
+
+
+@media (min-width: 600px){
+
+#lou {
+    float: right;
+}
+.Louisville{
+    clear: left;
+}
+
 }
